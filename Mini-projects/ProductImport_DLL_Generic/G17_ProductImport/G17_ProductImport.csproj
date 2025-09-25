@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\GITHUB\databasehelper-generic\DatabaseHelper.SQL\DatabaseHelper.Abstaction\DatabaseHelper.Abstaction.csproj" />
+    <ProjectReference Include="..\..\..\GITHUB\databasehelper-generic\DatabaseHelper.SQL\DatabaseHelper.Oracle\DatabaseHelper.Oracle.csproj" />
+    <ProjectReference Include="..\..\..\GITHUB\databasehelper-generic\DatabaseHelper.SQL\DatabaseHelper.SQL\DatabaseHelper.SQL.csproj" />
+    <ProjectReference Include="..\..\..\GITHUB\databasehelper-generic\DatabaseHelper.SQL\MySqlDatabase\MySqlDatabase.csproj" />
+    <ProjectReference Include="..\..\..\source\GITHUB\testnini\DatabaseHelper.SQL\DatabaseHelper.Abstaction\DatabaseHelper.Abstaction.csproj" />
+    <ProjectReference Include="..\..\..\source\GITHUB\testnini\DatabaseHelper.SQL\DatabaseHelper.Oracle\DatabaseHelper.Oracle.csproj" />
+    <ProjectReference Include="..\..\..\source\GITHUB\testnini\DatabaseHelper.SQL\DatabaseHelper.SQL\DatabaseHelper.SQL.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G17_ProductImport", "G17_ProductImport\G17_ProductImport.csproj", "{9C1D6AE7-E835-469F-8295-FADD0BC116CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseHelper.Abstaction", "..\..\GITHUB\databasehelper-generic\DatabaseHelper.SQL\DatabaseHelper.Abstaction\DatabaseHelper.Abstaction.csproj", "{D809553A-38B1-47DE-9BBE-E9F84E02234E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseHelper.Oracle", "..\..\GITHUB\databasehelper-generic\DatabaseHelper.SQL\DatabaseHelper.Oracle\DatabaseHelper.Oracle.csproj", "{CE1A8BF3-DE5F-4A1E-B102-F40F53B5613C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseHelper.SQL", "..\..\GITHUB\databasehelper-generic\DatabaseHelper.SQL\DatabaseHelper.SQL\DatabaseHelper.SQL.csproj", "{0E2ADBF2-7EDB-46B0-BD9D-23FF8A067ED7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySqlDatabase", "..\..\GITHUB\databasehelper-generic\DatabaseHelper.SQL\MySqlDatabase\MySqlDatabase.csproj", "{233970CD-4623-44CB-BC49-20E89FA733F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C1D6AE7-E835-469F-8295-FADD0BC116CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1D6AE7-E835-469F-8295-FADD0BC116CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1D6AE7-E835-469F-8295-FADD0BC116CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1D6AE7-E835-469F-8295-FADD0BC116CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D809553A-38B1-47DE-9BBE-E9F84E02234E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D809553A-38B1-47DE-9BBE-E9F84E02234E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D809553A-38B1-47DE-9BBE-E9F84E02234E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D809553A-38B1-47DE-9BBE-E9F84E02234E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1A8BF3-DE5F-4A1E-B102-F40F53B5613C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1A8BF3-DE5F-4A1E-B102-F40F53B5613C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1A8BF3-DE5F-4A1E-B102-F40F53B5613C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1A8BF3-DE5F-4A1E-B102-F40F53B5613C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2ADBF2-7EDB-46B0-BD9D-23FF8A067ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2ADBF2-7EDB-46B0-BD9D-23FF8A067ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2ADBF2-7EDB-46B0-BD9D-23FF8A067ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2ADBF2-7EDB-46B0-BD9D-23FF8A067ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233970CD-4623-44CB-BC49-20E89FA733F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233970CD-4623-44CB-BC49-20E89FA733F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233970CD-4623-44CB-BC49-20E89FA733F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233970CD-4623-44CB-BC49-20E89FA733F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40C2DDFC-B33C-49F7-AAF1-39378B61D03F}
+	EndGlobalSection
+EndGlobal
